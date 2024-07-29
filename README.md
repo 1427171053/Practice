@@ -1,7 +1,7 @@
 # Practice
  项目描述
 
-这是一个实践项目，使用 Python Flask 框架连接数据库，并配置了一级缓存、二级缓存、Nginx 反向代理，还进行了微服务的拆分。account_service.py 和 projects_service.py 是两个基于微服务思想构建的服务，一个是账号服务，负责进行账号的注册登陆，另外一个是项目和参与者服务，负责连接数据库之后的增删改查操作，这两个服务之间构建了内部通信的 API，其中Nginx配置文件是nginx.conf.测试这两个微服务，我使用的是postman
+这是一个实践项目，使用 Python Flask 框架连接PG数据库，并配置了一级缓存、二级缓存、Nginx 反向代理，还进行了微服务的拆分。account_service.py 和 projects_service.py 是两个基于微服务思想构建的服务，一个是账号服务，负责进行账号的注册登陆，另外一个是项目和参与者服务，负责连接数据库之后的增删改查操作，这两个服务之间构建了内部通信的 API，其中Nginx配置文件是nginx.conf.测试这两个微服务，我使用的是postman
 
 前置条件
 
